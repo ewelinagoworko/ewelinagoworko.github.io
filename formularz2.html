@@ -13,37 +13,57 @@
 
 		<label for="name">Imię:</label>
 		<input type="text" id="name" name="name">
-		<br /> <br/>
+		<br/>
+		<br/>
+
 		<label for="surname">Nazwisko:</label>
 		<input type="text" id="surname" name="surname">
-		<br /> <br/>
+		<br/>
+		<br/>
+
 		<label for="email">Adres e-mail:</label>
 		<input type="text" id="email" name="email">
-		<br /> <br/>
+		<br/>
+		<br/>
+
 		<label for="phonenumber">Numer telefonu:</label>
 		<input type="number" id="phonenumber" name="phonenumber">
-		<br /> <br/>
+		<br/>
+		<br/>
+
 		<label for="miasto">Wybierz miasto, w którym chciałbyś odbyć szkolenie:</label>
-			<select>
-				<option value="Warszawa">Warszawa</option>
-				<br>
-				<option value="Gdański">Gdańsk</option>
-				<br>
-				<option value="Kraków">Kraków</option>
-				<br>
-			</select>
-			<br/> <br/>
+		<select>
+			<option value="Warszawa">Warszawa</option>
+			<br>
+			<option value="Gdański">Gdańsk</option>
+			<br>
+			<option value="Kraków">Kraków</option>
+			<br>
+		</select>
+		<br/>
+		<br/>
+
 		<label for="gender">Płeć:</label>
+		<br/>
+		<label>
+			<input type="radio" name="gender" value="male"> Mężczyzna</label>
+		<br/>
+
+		<label>
+			<input type="radio" name="gender" value="female"> Kobieta</label>
+		<br/>
+
+		<label>
+			<input type="radio" name="gender" value="other"> Nie chcę udzielić odpowiedzi</label>
 		<br />
-		<input type="radio" name="gender" value="male" checked> Mężczyzna
-		<br/>
-		<input type="radio" name="gender" value="female"> Kobieta
-		<br/>
-		<input type="radio" name="gender" value="other"> Nie chcę udzielić odpowiedzi
-		<br /> <br />
+		<br />
+
 		<label for="zgoda">Przetwarzanie danych osobowych:</label>
-		<input type="checkbox" name="zgoda" value="zgoda"> Wyrażam zgodę na przetwarzanie moich danych osobowych
-		<br/> <br/>
+		<label>
+			<input type="checkbox" name="zgoda" value="zgoda"> Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+		<br/>
+		<br/>
+
 		<label for="message">Wpisz wiadomość:</label>
 		<textarea name="msg" id="message" cols="30" rows="10"></textarea>
 		<input type="submit" value="Wyślij" />
