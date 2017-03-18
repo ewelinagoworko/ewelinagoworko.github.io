@@ -1,19 +1,30 @@
 body {
 	background-color: #213b50;
+	color: white;
 }
 
-label, p {
-	color: #ffffff;
-}
-
-input, textarea, select {
+input:not([name="gender"]), textarea, select {
 	background-color: #2b4a64;
 	border: 1px solid #2b4a64;
 	display: block;
+	width: 300px;
+}
+
+input[type="checkbox"] {
+	width: 5px;
+}
+
+select {
+	color: white;
+}
+
+input:not([name="gender"]), select {
+	height: 25px;
 }
 
 input[type="submit"] {
 	background-color: green;
+	color: white;
 	height: 30px;
 	width: 100px;
 	font-weight: 700;
@@ -22,6 +33,7 @@ input[type="submit"] {
 input:focus, textarea:focus {
 	background-color: #4e708c;
 	border: 1px solid white;
+	outline: none;
 }
 
 #miasto {
