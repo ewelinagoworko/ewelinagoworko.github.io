@@ -1,6 +1,5 @@
 body {
 	background-color: #213b50;
-	display: block;
 }
 
 label, p {
@@ -10,14 +9,26 @@ label, p {
 input, textarea, select {
 	background-color: #2b4a64;
 	border: 1px solid #2b4a64;
+	display: block;
 }
-
 
 input[type="submit"] {
 	background-color: green;
+	height: 30px;
+	width: 100px;
+	font-weight: 700;
 }
 
 input:focus, textarea:focus {
 	background-color: #4e708c;
-	border: 1px solid white;	
+	border: 1px solid white;
+}
+
+#miasto {
+	height: 30px;
+	width: 100px;
+}
+
+input[name="gender"], input[name="zgoda"] {
+	display: inline;
 }
