@@ -1,0 +1,13 @@
+figure {
+	width: 100%;
+}
+
+img, figcaption {
+	width: 91%;
+}
+
+@media (max-width: 992px) {
+	figure img {
+		height: 50vh;
+	}
+}
