@@ -20,7 +20,6 @@ figure {
 
 @media (min-width: 993px) and (max-width: 1170px) {
 	#background {
-		height: 70%;
 		width: 100%;
 		background-image: url('../zadanie-domowe-rwd-materialy/obrazy/man-2.jpg');
 	}
@@ -28,9 +27,11 @@ figure {
 
 @media (min-width: 993px) and (max-width: 1170px) {
 	figcaption {
+		width: 100%;
 		height: 30%;
 		line-height: 3em;
 		top: 30%;
+		vertical-align: middle;
 	}
 }
 
@@ -56,7 +57,7 @@ figure {
 		font-weight: bold;
 		line-height: 4em;	
 		text-align: left;
-		left: 55%;
+		left: 60%;
 		top: 25%;
     }
 }
