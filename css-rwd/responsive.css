@@ -2,6 +2,7 @@ figure {
 	width: 100%;
 }
 
+
 @media (min-width: 0px) and (max-width: 992px) {
 	#background {
 		height: 50vh;
@@ -21,6 +22,7 @@ figure {
 @media (min-width: 993px) and (max-width: 1170px) {
 	#background {
 		width: 100%;
+		height: 70vh;
 		background-image: url('../zadanie-domowe-rwd-materialy/obrazy/man-2.jpg');
 	}
 }
@@ -29,9 +31,16 @@ figure {
 	figcaption {
 		width: 100%;
 		height: 30%;
-		line-height: 3em;
-		top: 30%;
-		vertical-align: middle;
+		position: absolute;
+		color: #fff;
+		transform: translateY(-50%);
+		margin: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 4em;	
+		text-align: left;
+		left: 59%;
+		top: 20%;
 	}
 }
 
@@ -45,21 +54,6 @@ figure {
 	.napis-2 {
 		font-size: 30px;
 	}
-}
-
-@media (min-width: 993px) and (max-width: 1170px)  {
-	figcaption {
-		position: absolute;
-		color: #fff;
-		transform: translateY(-50%);
-		margin: 0;
-		text-transform: uppercase;
-		font-weight: bold;
-		line-height: 4em;	
-		text-align: left;
-		left: 60%;
-		top: 25%;
-    }
 }
 
 @media (min-width: 1171px) {
