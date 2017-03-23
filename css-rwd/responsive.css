@@ -1,0 +1,93 @@
+figure {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	#background {
+		height: 50vh;
+	}
+}
+
+@media (max-width: 992px) {
+	figcaption {
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		position: absolute;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+	#background {
+		height: 70%;
+		width: 100%;
+		background-image: url('../zadanie-domowe-rwd-materialy/obrazy/man-2.jpg');
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+	figcaption {
+		height: 30%;
+		line-height: 3em;
+		top: 30%;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+	.napis-1 {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+	.napis-2 {
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1170px)  {
+	figcaption {
+		position: absolute;
+		color: #fff;
+		transform: translateY(-50%);
+		margin: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 4em;	
+		text-align: left;
+		left: 55%;
+		top: 25%;
+    }
+}
+
+@media (min-width: 1170px) {
+	#background {
+		height: 100vh;
+	}
+}
+
+@media (min-width: 1170px) {
+	figcaption {
+	position: absolute;
+	color: #fff;
+	transform: translateY(-50%);
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 4em;	
+	left: 2%;
+	top: 50%;
+	text-align: left;
+    }
+} 
+
+@media (min-width: 1170px) {
+	.napis-1 {
+		font-size: 25.5px;
+	}
+}
+	
+@media (min-width: 1170px) {
+	.napis-2 {
+		font-size: 33px;
+	}
