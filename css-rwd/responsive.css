@@ -19,6 +19,24 @@ figure {
 	}
 }
 
+/*co zrobic, jak dodamy paragraf pod obrazkiem, zeby nam sie napis nagłowkowy nie pokrywal ze wstawionym tekscie paragrafem przy rozdzielczosci 992px
+
+ w kodzie html dodać :
+   <header class="header-caption-mobile>
+     <h1></h1>
+     <h2></h2>
+   </header>
+
+w css dodać:
+
+ @media (max-width: 992px) {
+	figcaption {
+        display: none;
+}
+
+
+*/
+
 @media (min-width: 993px) and (max-width: 1170px) {
 	#background {
 		width: 100%;
