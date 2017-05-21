@@ -1,0 +1,26 @@
+@media all and (max-width: 786px) {
+	#main-nav, #main-nav.scroll {
+		background-color: #fff;
+		margin-right: 0;
+	}
+	
+	#main-nav a, #main-nav.scroll a {
+		color: #777777;
+	}
+
+}
+
+@media all and (max-width: 786px) {
+	#contact input:not([type='submit']) {
+		margin-left: 170px;
+	}
+}
+
+@media all and (max-width: 991px) {
+	#contact input:not([type='submit']) {
+		width: 300px;
+	}
+}
+
+
+	
