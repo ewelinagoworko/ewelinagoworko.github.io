@@ -173,7 +173,7 @@ body {
 	line-height: 30px;		
 }
 
-.box .box-front:hover  {
+.box:hover .box-front {
 	transform: rotateY(180deg);
 }
 
