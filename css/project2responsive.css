@@ -1,0 +1,72 @@
+@media (min-width: 769px) and (max-width: 1170px) {
+	#portfolio .portfolio-item {
+		width: 50%;
+	}
+	#portfolio .portfolio-item:last-child {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	#main-menu label {
+		display: block;
+		color: #1ac056;
+		text-align: right;
+		padding: 15px;
+	}
+	#main-menu ul {
+		margin: 0;
+		display: none;
+	}
+	#main-menu ul .menu-item {
+		display: block;
+		padding: 15px;
+	}
+	#main-menu #drop:checked + ul {
+		display: block;
+	}
+	.col-1-2 {
+		width: 100%;
+	}
+	#jannowak {
+		width: 100%;
+		max-height: none;
+	}
+	#html5,
+	#css3,
+	#js,
+	#jquery {
+		margin: 0;
+		width: 49%;
+		margin-top: 20px;
+	}
+	#portfolio .portfolio-item {
+		width: 100%;
+	}
+	#contact {
+		text-align: center;
+	}
+	#contact .col-1-2 h2 {
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 480px) {
+	section {
+		padding: 40px 30px;
+	}
+	#main-header .header h1 {
+		font-size: 2.5em;
+	}
+	#main-header .header h2 {
+		font-size: 1.5em;
+	}
+	#portfolio {
+		padding: 40px 0;
+	}
+	#contact .social-icons a {
+		margin: 0;
+	}
+}
