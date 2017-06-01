@@ -168,7 +168,7 @@ box-in {
 
 .box-back {
 	-webkit-background-color: #F5F5F5;
-	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 	-webkit-z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-webkit-line-height: 30px;
