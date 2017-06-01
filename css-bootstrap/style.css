@@ -1,0 +1,334 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+}
+
+h1, #main-menu {
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+}
+
+/* Menu nawigacyjne */
+
+#main-nav {
+	background-color: transparent;
+	border: none;
+}
+
+#main-menu a {
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#main-nav a:hover {
+	color: #0ed8d6;
+	
+}
+
+#main-nav.scroll {
+	background-color: #0ed8d6;
+	opacity: 0.8;
+}
+
+#main-nav.scroll a:hover {
+	color: #777777;
+}
+
+#main-menu ul a {
+	margin-right: 0;
+	padding: 20px;
+}
+
+/* Header */
+
+#main-header {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/header/pictures_on_the_wall.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+#main-header .header-caption {
+	text-align: center;
+	position: absolute;
+	transform: translateY(-50%);
+	top: 333px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#main-header .header-caption h1 {
+	color: #fff;
+	font-size: 4em;
+	padding: 15px;
+}
+
+#main-header .header-caption h2 {
+	color: #fff;
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 2.5em;
+}
+
+.btn-blue {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+	color: #fff;
+	transition: all .3s;
+	padding: 20px;
+	
+}
+
+.btn-blue:hover {
+	background-color: #fff;
+	border: 1px solid #0ed8d6;
+	color: #0ed8d6;
+}
+
+/* Sekcja Services */
+
+#services {
+    padding: 30px;
+    margin-top: 5px;
+}
+
+#services .container {
+	padding: 10px;
+}
+
+#services header p {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+#services h2 {
+	font-size: 1.5em;
+}
+
+#services .fa {
+	font-size: 2.5em;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	border: 1px solid #0ed8d6;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #0ed8d6;
+	transition: all .3s;
+	
+}
+
+#services .fa:hover {
+	color: #0ed8d6;
+	background-color: #fff;
+	transform: rotate(360deg);
+}
+
+/* Sekcja Portfolio */
+
+#portfolio {
+	background-color: #f7f7f7;
+}
+
+#portfolio .outer {
+	background: #fff;
+	margin-right: 45px;
+	margin-left: 45px;
+	margin-bottom: 15px;	
+}
+
+#portfolio .inner {
+	height: 260px;
+	overflow: hidden;
+}
+
+#portfolio .outer .portfolio-image {
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	transition: .3s;
+}
+
+#portfolio .outer .portfolio-image:hover {
+	transform: scale(1.2);
+}
+
+#portfolio .outer .portfolio-image .mask {
+	background-color: rgba(14, 216, 214, 0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .3s;
+}
+
+#portfolio .outer .portfolio-image .mask:hover{
+	opacity: 1;
+}
+
+#portfolio .outer .portfolio-image .mask .fa{
+	position: absolute;
+	color: #fff;
+	font-size: 3em;
+	margin: auto;
+    left: 0;
+    right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+#portfolio .outer p {
+	padding-bottom: 15px
+}
+
+
+.portfolio-description {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+#portfolio-item-1 {
+	background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-item-2 {
+	background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio-item-3 {
+	background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-item-4 {
+	background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-item-5 {
+	background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-item-6 {
+	background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+/* Sekcja Zespol */
+
+#team {
+	padding-bottom: 20px;
+}
+
+#team .img-circle {
+	height: 255px;
+}
+
+.social-icons a {
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	line-height: 35px;
+	background-color: #222222;
+	border: 1px solid #222222;
+	border-radius: 50%;
+	font-size: 1.5em;
+	color: #fff;
+	transition: all .3s;
+	margin: 5px;
+	text-align: center;
+}
+
+#team .social-icons a:hover {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+}
+
+#team .row {
+	padding: 20px;
+}
+
+#team header p {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+#team #text {
+	margin-top: 20px;
+}
+
+/* Sekcja Kontakt */
+
+#contact {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/footer/world-map.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#contact-header .contact-caption, .contact-description {
+	color: #fff;
+}
+
+#contact .contact-description {
+	font-family: 'Droid Serif', sans-serif;
+}
+
+#contact input, #contact textarea {
+	text-transform: uppercase;
+	padding: 15px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+#contact input:not([type='submit']) {
+	display: block;
+	width: 450px;
+	padding: 20px;
+}
+
+#contact input {
+	margin-bottom: 10px;
+}
+
+#contact textarea {
+	width: 400px;
+	height: 275px;
+}
+
+/* Sekcja Footer */
+
+#main-footer ul li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;	
+}
+
+#main-footer ul li a {
+	text-decoration: none;
+	color: #222222;
+}
+
+#main-footer .social-icons a:hover {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+}
+
+#main-footer ul li a:hover {
+	color: #0ed8d6;
+}
+
+#main-footer p {
+	color: #222222;
+	margin-top: 10px;
+}
+
+
