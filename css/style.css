@@ -144,34 +144,34 @@ body {
 }
 
 .box {
-	-webkit-height: 155px;
-	-webkit-width: 125px;
-	-webkit-position: relative;
-	-webkit-display: inline-block;
-	-webkit-padding: 5px;
-    -webkit-line-height: 20px;
+	height: 155px;
+	width: 125px;
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+    line-height: 20px;
 }
 
 box-in {
-	-webkit-position: absolute;
-	-webkit-height: 100%;
-	-webkit-width: 100%;
-	-webkit-transition: all 0.5s;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
 }
 
 .box-front {
-	-webkit-background-color: transparent;
-	-webkit-z-index: 1;
-	-webkit-backface-visibility: hidden;
+	background-color: transparent;
+	z-index: 1;
+	backface-visibility: hidden;
 	
 }
 
 .box-back {
-	-webkit-background-color: #F5F5F5;
+	background-color: #F5F5F5;
 	-webkit-transform: -webkit-rotateY(180deg);
-	-webkit-z-index: 1;
-	-webkit-backface-visibility: hidden;
-	-webkit-line-height: 30px;
+	z-index: 1;
+	backface-visibility: hidden;
+	line-height: 30px;
 }
 
  
