@@ -168,7 +168,7 @@ box-in {
 
 .box-back {
 	-webkit-background-color: #F5F5F5;
-	transform: rotateY(180deg);
+	-webkit-transform: -webkit-rotateY(180deg);
 	-webkit-z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-webkit-line-height: 30px;
@@ -176,12 +176,12 @@ box-in {
 
  
 .box:hover .box-front {
-	transform: rotateY(180deg);
+	-webkit-transform: -webkit-rotateY(180deg);
 }
 
 
 .box:hover .box-back {
-	transform: rotateY(0deg);
+	-webkit-transform: -webkit-rotateY(0deg);
 }
 
 
