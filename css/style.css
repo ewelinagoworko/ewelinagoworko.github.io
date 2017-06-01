@@ -167,6 +167,10 @@ body {
 
 .box-back {
 	background-color: #F5F5F5;
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	z-index: 1;
 	backface-visibility: hidden;
@@ -174,10 +178,18 @@ body {
 }
 
 .box:hover .box-front {
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
 .box:hover .box-back {
+	-ms-transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 }
 
