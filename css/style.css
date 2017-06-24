@@ -121,6 +121,14 @@ body {
 	text-decoration: none;
 }
 
+#about .about-education a {
+	transition: all .3s;
+}
+
+#about .about-education a:hover {
+	color: #B28B98;
+}
+
 #about .about h2 {
 	transition: all .3s;
 }
