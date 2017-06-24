@@ -40,7 +40,8 @@ body {
 #main-nav a:hover {
 	height: 40px;
 	cursor: n-resize;
-	opacity: 0.7;	
+	opacity: 0.7;
+	background-color: #B28B98;
 }
 
 #main-nav.scroll {
@@ -53,6 +54,7 @@ body {
 
 #main-nav.scroll a:hover {
 	color: #777777;
+	background-color: transparent;
 }
 
 
