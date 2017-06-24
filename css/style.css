@@ -118,6 +118,7 @@ body {
 
 #about .about-education a {
 	color: #1D1D21;
+	text-decoration: none;
 }
 
 #about .about h2 {
