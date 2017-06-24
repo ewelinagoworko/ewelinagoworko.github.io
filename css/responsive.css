@@ -137,3 +137,19 @@
 		transform: translateX(-32%);
 	}
 }
+
+@media (max-width: 590px) {
+	#skills .coding {
+		padding-right: 100px;
+	}
+}
+
+@media (max-width: 460px) {
+	#main-header .header-caption h1 {
+		font-size: 1.5em;
+	}
+	
+	#main-header .header-caption h2 {
+		font-size: 1.5em;
+	}
+}
