@@ -103,7 +103,7 @@ body {
 }
 
 #about .about-section a {
-	color: #1D1D21;	
+	color: #1D1D21;
 }
 
 #about .about-education {
@@ -117,6 +117,7 @@ body {
 #about .about-education a {
 	color: #1D1D21;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 #about .about-education a {

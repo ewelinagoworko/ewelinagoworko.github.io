@@ -152,4 +152,12 @@
 	#main-header .header-caption h2 {
 		font-size: 1.5em;
 	}
+	
+	#about .about-section {
+		text-align: justify;
+	}
+	
+	#about .about-education {
+		text-align: justify;
+	}
 }
