@@ -8,7 +8,6 @@
 	}
 	
 	#hobbies {
-    	left: 50%;
     	transform: translateX(-50%) translateY(-50%);
 		margin-top: 135px;
 	}
@@ -120,5 +119,21 @@
 @media (max-width: 600px) {
 	#contact #send {
 		margin-right: auto;
+	}
+}
+
+@media (max-width: 540px){
+	#contact .contact-section {
+		transform: translateX(-20%);
+	}
+	
+	#contact #send {
+		transform: translateX(-10%);
+	}
+}
+
+@media (max-width: 470px){
+	#contact .contact-section {
+		transform: translateX(-32%);
 	}
 }
