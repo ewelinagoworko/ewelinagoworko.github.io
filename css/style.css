@@ -221,6 +221,10 @@ body {
 	margin-top: 20px;
 }
 
+#portfolio h5 {
+	font-size: 0.8em;
+}
+
 #portfolio .account a {
 	text-decoration: none;
 	color: #1D1D21;
