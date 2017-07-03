@@ -1,6 +1,6 @@
-@media (max-width: 1090px) {
+@media (max-width: 1310px) {
 	#form-section .form-section-right {
-		margin-right: 200px;
+		margin-right: 400px;
 	}
 	
 	.header-contact {
@@ -13,19 +13,19 @@
 	}
 }
 
-@media (max-width: 890px) {
+@media (max-width: 910px) {
 	#form-section .form-section-right {
-		margin-right: 500px;
+		margin-right: 600px;
 	}
 	
 	.header-contact {
-		margin-right: 500px;
+		margin-right: 600px;
 	}
 }
 
-@media (max-width: 595px) {
+@media (max-width: 710px) {
 	#form-section .form-section-right {
-		margin-right: 700px;
+		margin-right: 900px;
 	}
 	
 	.header-contact {

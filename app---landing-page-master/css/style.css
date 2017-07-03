@@ -63,10 +63,10 @@ header {
 
 #form-section {
   background-image: url(../coins-912720_1920.jpg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100vw;	
+  width: 1600px;	
   color: #fff; }
   #form-section .form-section-right {
     position: absolute;
