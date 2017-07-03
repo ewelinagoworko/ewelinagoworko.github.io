@@ -97,7 +97,8 @@ header {
 footer {
   background-color: #292929;
   padding: 50px 0;
-  color: #fff; }
+  color: #fff; 
+  height: 200px; }
   footer .phone-footer {
     text-align: center;
     margin-bottom: 30px; }
@@ -111,6 +112,3 @@ footer {
       line-height: 50px;
       display: block;
       margin: 0 auto 10px; }
-  footer p {
-    text-align: center;
-    font-size: 0.8em; }

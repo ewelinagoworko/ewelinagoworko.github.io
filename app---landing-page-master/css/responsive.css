@@ -1,0 +1,34 @@
+@media (max-width: 1090px) {
+	#form-section .form-section-right {
+		margin-right: 200px;
+	}
+	
+	.header-contact {
+		margin-right: 200px;
+	}
+	
+	.phone-footer {
+		margin-left: 50px;
+		width: 100px;
+	}
+}
+
+@media (max-width: 890px) {
+	#form-section .form-section-right {
+		margin-right: 500px;
+	}
+	
+	.header-contact {
+		margin-right: 500px;
+	}
+}
+
+@media (max-width: 595px) {
+	#form-section .form-section-right {
+		margin-right: 700px;
+	}
+	
+	.header-contact {
+		margin-right: 650px;
+	}
+}
