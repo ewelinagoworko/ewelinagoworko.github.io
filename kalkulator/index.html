@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="calculator">
+      
+        <div class="screen">
+          <input type="text" id="screen" readonly>
+        </div>
+         <input type="button" id="delete" value="Del" onclick='c("")'>
+         
+      <div class="keys">
+        <input type="button" class="btn" value="1" onclick="math('1')">
+        <input type="button" class="btn" value="2" onclick="math('2')">
+        <input type="button" class="btn" value="3" onclick="math('3')">
+        <input type="button" class="operator" value="+" onclick="math('+')">
+        <input type="button" class="btn" value="4" onclick="math('4')">
+        <input type="button" class="btn" value="5" onclick="math('5')">
+        <input type="button" class="btn" value="6" onclick="math('6')">
+        <input type="button" class="operator" value="-" onclick="math('-')">
+        <input type="button" class="btn" value="7" onclick="math('7')">
+        <input type="button" class="btn" value="8" onclick="math('8')">
+        <input type="button" class="btn" value="9" onclick="math('9')">
+        <input type="button" class="operator" value="/" onclick="math('/')">
+        <input type="button" class="btn" value="0" onclick="math('0')">
+        <input type="button" class="operator" value="." onclick="math('.')">
+        <input type="button" class="operator" value="=" onclick="e()">
+        <input type="button" class="operator" value="*" onclick="math('*')">
+      </div>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
