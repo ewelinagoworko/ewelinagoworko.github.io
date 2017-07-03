@@ -106,6 +106,7 @@ body {
 
 #about .about-section a {
 	color: #1D1D21;
+	cursor: n-resize;
 }
 
 #about .about-education {
@@ -128,6 +129,7 @@ body {
 
 #about .about-education a:hover {
 	color: #B28B98;
+	cursor: n-resize;
 }
 
 #about .about h2 {
@@ -135,7 +137,6 @@ body {
 }
 
 #about .about h2:hover, a:hover {
-	cursor: n-resize;
 	color: #B28B98;
 }
 
@@ -152,7 +153,6 @@ body {
 
 #skills .coding {
 	margin-top: 50px;
-	cursor: n-resize;
 }
 
 #skills .col-sm-3 {
