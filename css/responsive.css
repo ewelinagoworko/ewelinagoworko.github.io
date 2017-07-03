@@ -161,3 +161,41 @@
 		text-align: justify;
 	}
 }
+
+@media (max-width: 1200px) {
+	#slider {
+		margin-left: 255px;
+	}
+}
+
+@media (max-width: 995px) {
+	#slider {
+		margin-left: 145px;
+	}
+}
+
+@media (max-width: 715px) {
+	#slider {
+		margin-left: 110px;
+	}
+}
+
+@media (max-width: 615px) {
+	#slider {
+		margin-left: 55px;
+	}
+}
+
+@media (max-width: 530px) {
+	#slider {
+		margin-left: 15px;
+		height: 265px;
+	}
+}
+
+@media (max-width: 495px) {
+	#slider {
+		height:265px;
+		width: 345px;
+	}
+}
