@@ -215,7 +215,7 @@ body {
 /* Portfolio Section */
 
 #portfolio {
-	height: 700px;
+	height: 750px;
 }
 #portfolio .account {
 	margin-top: 20px;
@@ -236,12 +236,36 @@ body {
 	color: #B28B98;
 }
 
+
+
+#portfolio #portfolio-item1 {
+	background: url(../img/bootstrapproject.png);
+}
+
+#portfolio #portfolio-item2 {
+	background: url(../img/portfoliowebsite.png);
+	background-size: cover;
+}
+
+#portfolio #portfolio-item3 {
+	background: url();
+}
+
+#portfolio #portfolio-item4 {
+	background: url(../img/calculator.png);
+}
+
+#portfolio #portfolio-item5 {
+	background: url(../img/landingpage.png);
+}
+
 #slider {
 	overflow: hidden;
-	height: 300px;
-	width: 550px;
-    margin-left: 300px;
+	height: 279px;
+	width: 445px;
+    margin-left: 345px;
 	position: relative;
+	margin-top: 25px;
 	
 }
 
@@ -257,6 +281,11 @@ body {
 	bottom: 0;
 	background-color: #C8C8C8;
 	opacity: 0.7;
+	transition: .3s;
+}
+
+.slide-show .single-slide:hover {
+	transform: scale(1.1);
 }
 
 #slider .slide-show .single-slide img {
@@ -274,29 +303,31 @@ body {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	font-size: 2.3em;
+	font-size: 2em;
 	text-transform: lowercase;
-	color: #1D1D21;
+	color: #D2D9DB;
 }
 
 #slider .slide-show .single-slide p {
 	font-size: 1em;
-	margin-top: 100px;
+	margin-top: 120px;
+	color: #D2D9DB;
 }
 
 #slider .slide-show .single-slide a {
-	color: #1D1D21;
+	color: #D2D9DB;
+	
 	font-size: 2em;
 }
 
 #slider .slide-show .single-slide a:hover {
 	cursor: n-resize;
-	color: #B28B98;
+	color: #1D1D21;
 }
 
 #slider .slider-arrows a{
 	top:50%;
-	transform: translateY(-50%);
+	transform: translateY(30%);
 	font-size: 1.5em;
 	color: #1D1D21;
 	opacity: 0.7;
@@ -304,7 +335,6 @@ body {
 
 #slider .slider-arrows a:hover{
 	cursor: n-resize;
-	color: #B28B98;
 }
 
 #slider .slider-arrows .prev-slide{

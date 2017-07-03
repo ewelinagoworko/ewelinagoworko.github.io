@@ -62,6 +62,7 @@ $ (function(){
 		//console.log(newSlideIndex);
 	});
 
+
 	//SLIDE Function
 		
  	function slide (newSlideIndex){ 

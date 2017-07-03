@@ -1,0 +1,27 @@
+footer {
+	background-color: $grey-color;
+	padding: 50px 0;
+	color: #fff;
+	
+	.phone-footer {
+		text-align: center;
+		margin-bottom: 30px;
+		
+		.fa {
+			background-color: #f4b939;
+			color: #000;
+			height: 50px;
+			width: 50px;
+			font-size: 25px;
+			text-align: center;
+			line-height: 50px; //line-height pomaga nam tutaj wyśrodkować ikonki font-awesome telefon i koperta wewnątrz żoltych kwadratow
+			display: block;
+			margin: 0 auto 10px;
+		}
+	}
+	
+	p {
+		text-align: center;
+		font-size: 0.8em;
+	}
+}

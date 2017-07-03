@@ -1,0 +1,51 @@
+header {
+	position: absolute;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	padding: 20px 0;
+	z-index: 10;
+	
+	#main-logo {
+		display: inline-block;
+		float: left;
+		margin-left: 30px;
+		
+		h1 {
+			display: inline-block;
+			margin: 0;
+			line-height: 43px;
+		}
+		
+		.fa {
+			color: $yellow-color;
+			line-height: 43px;
+			@include fa-header;
+		}
+	}
+	
+	.header-contact {
+		display: inline-block;
+		float: right;
+		width: 300px;
+		
+		.fa {
+			@include fa-header;
+			line-height: 45px;
+		}
+		
+		span {
+			display: block; //globalnie dla calego znacznika span
+			
+			&.call { //tylko dla spana o klasie call
+				font-size: 0.7 em;
+			}
+			
+			&.phone { //tylko dla spana o klasie phone
+				font-size: 1.2em;
+			}
+		}
+	}
+} 
