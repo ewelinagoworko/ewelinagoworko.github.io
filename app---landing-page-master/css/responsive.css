@@ -1,4 +1,4 @@
-@media (max-width: 1310px) {
+@media (max-width: 1090px) {
 	#form-section .form-section-right {
 		margin-right: 400px;
 	}
@@ -8,27 +8,27 @@
 	}
 	
 	.phone-footer {
-		margin-left: 50px;
-		width: 100px;
+		width: 150px;
 	}
 }
 
 @media (max-width: 910px) {
 	#form-section .form-section-right {
-		margin-right: 600px;
+		margin-right: 400px;
 	}
 	
 	.header-contact {
-		margin-right: 600px;
+		margin-right: 400px;
 	}
 }
 
 @media (max-width: 710px) {
 	#form-section .form-section-right {
-		margin-right: 900px;
+		margin-right: 700px;
 	}
 	
 	.header-contact {
 		margin-right: 650px;
 	}
+	
 }
