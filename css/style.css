@@ -75,8 +75,9 @@ body {
 }
 
 #main-header .header-caption h1 {
-	font-size: 3em;
+	font-size: 95px;
 	font-family: 'Amatic SC', cursive;
+	margin-top: 0px;
 }
 
 #main-header .header-caption h2 {
