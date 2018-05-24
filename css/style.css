@@ -43,6 +43,11 @@ body {
 	opacity: 0.7;	
 }
 
+.container-fluid {
+	height: 100px;
+	background-color: rgba(224, 224, 224, 0.6);
+}
+
 #main-nav.scroll {
 	background-color: rgba(178, 139, 152, 0.4);	
 }
