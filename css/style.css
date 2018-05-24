@@ -40,8 +40,7 @@ body {
 #main-nav a:hover {
 	height: 40px;
 	cursor: n-resize;
-	opacity: 0.7;
-	background-color: #B28B98;
+	opacity: 0.7;	
 }
 
 #main-nav.scroll {
@@ -54,7 +53,6 @@ body {
 
 #main-nav.scroll a:hover {
 	color: #777777;
-	background-color: transparent;
 }
 
 
@@ -78,6 +76,7 @@ body {
 
 #main-header .header-caption h1 {
 	font-size: 3em;
+	font-family: 'Amatic SC', cursive;
 }
 
 #main-header .header-caption h2 {
@@ -105,8 +104,7 @@ body {
 }
 
 #about .about-section a {
-	color: #1D1D21;
-	cursor: n-resize;
+	color: #1D1D21;	
 }
 
 #about .about-education {
@@ -117,26 +115,12 @@ body {
     padding: 10px;
 }
 
-#about .about-education a {
-	color: #1D1D21;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-#about .about-education a {
-	transition: all .3s;
-}
-
-#about .about-education a:hover {
-	color: #B28B98;
-	cursor: n-resize;
-}
-
 #about .about h2 {
 	transition: all .3s;
 }
 
 #about .about h2:hover, a:hover {
+	cursor: n-resize;
 	color: #B28B98;
 }
 
@@ -153,6 +137,7 @@ body {
 
 #skills .coding {
 	margin-top: 50px;
+	cursor: n-resize;
 }
 
 #skills .col-sm-3 {
@@ -178,44 +163,34 @@ body {
 .box-front {
 	background-color: transparent;
 	z-index: 1;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
 .box-back {
 	background-color: #F5F5F5;
-	-ms-transform: rotateY(180deg);
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	z-index: 1;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	line-height: 30px;		
+	line-height: 30px;
+	
+	
 }
 
 .box:hover .box-front {
-	-ms-transform: rotateY(180deg);
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
 .box:hover .box-back {
-	-ms-transform: rotateY(0deg);
-	-webkit-transform: rotateY(0deg);
-	-moz-transform: rotateY(0deg);
-	-o-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 }
+
+
 
 
 /* Portfolio Section */
 
 #portfolio {
-	height: 750px;
+	height: 700px;
 }
 #portfolio .account {
 	margin-top: 20px;
@@ -236,36 +211,12 @@ body {
 	color: #B28B98;
 }
 
-
-
-#portfolio #portfolio-item1 {
-	background: url(../img/bootstrapproject.png);
-}
-
-#portfolio #portfolio-item2 {
-	background: url(../img/portfoliowebsite.png);
-	background-size: cover;
-}
-
-#portfolio #portfolio-item3 {
-	background: url(../img/project4.png);
-}
-
-#portfolio #portfolio-item4 {
-	background: url(../img/calculator.png);
-}
-
-#portfolio #portfolio-item5 {
-	background: url(../img/landingpage.png);
-}
-
 #slider {
 	overflow: hidden;
-	height: 279px;
-	width: 445px;
-    margin-left: 345px;
+	height: 300px;
+	width: 550px;
+    margin-left: 300px;
 	position: relative;
-	margin-top: 25px;
 	
 }
 
@@ -281,11 +232,6 @@ body {
 	bottom: 0;
 	background-color: #C8C8C8;
 	opacity: 0.7;
-	transition: .3s;
-}
-
-.slide-show .single-slide:hover {
-	transform: scale(1.1);
 }
 
 #slider .slide-show .single-slide img {
@@ -303,31 +249,29 @@ body {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	font-size: 1.8em;
+	font-size: 2.3em;
 	text-transform: lowercase;
-	color: #D2D9DB;
+	color: #1D1D21;
 }
 
 #slider .slide-show .single-slide p {
 	font-size: 1em;
-	margin-top: 120px;
-	color: #D2D9DB;
+	margin-top: 100px;
 }
 
 #slider .slide-show .single-slide a {
-	color: #D2D9DB;
-	
+	color: #1D1D21;
 	font-size: 2em;
 }
 
 #slider .slide-show .single-slide a:hover {
 	cursor: n-resize;
-	color: #1D1D21;
+	color: #B28B98;
 }
 
 #slider .slider-arrows a{
 	top:50%;
-	transform: translateY(30%);
+	transform: translateY(-50%);
 	font-size: 1.5em;
 	color: #1D1D21;
 	opacity: 0.7;
@@ -335,6 +279,7 @@ body {
 
 #slider .slider-arrows a:hover{
 	cursor: n-resize;
+	color: #B28B98;
 }
 
 #slider .slider-arrows .prev-slide{
@@ -389,7 +334,6 @@ body {
 	padding: 25px;
 }
 
-
 #contact input, #contact textarea {
 	text-transform: uppercase;
 	padding: 15px;
@@ -419,7 +363,6 @@ body {
 #contact :-moz-placeholder {
 	color: #777;
 }
-
 
 #contact input:not([type='submit']), #contact textarea {
 	width: 100%;
