@@ -32,9 +32,10 @@ body {
 
 #main-nav a {
 	color: #1D1D21;	
-	font-size: 1.2em;
+	font-size: 30px;
 	text-transform: lowercase;
 	transition: all .3s;
+	top: 25px;
 }
 
 #main-nav a:hover {
