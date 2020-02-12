@@ -82,7 +82,8 @@ body {
 
 #main-header .header-caption h1 {
 	font-size: 130px;
-	font-family: 'Amatic SC', cursive;
+	//font-family: 'Amatic SC', cursive;
+	font-family: 'Lacquer', sans-serif;
 	margin-top: 0px;
 }
 
