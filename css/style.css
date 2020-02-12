@@ -102,7 +102,7 @@ body {
 	text-transform: lowercase;
 }
 
-#about h1 .about-caption {
+#about .about-caption {
 	text-transform: uppercase;
 	font-weigth: bold;
 }
