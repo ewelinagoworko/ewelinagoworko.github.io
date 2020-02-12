@@ -102,8 +102,18 @@ body {
 	text-transform: lowercase;
 }
 
+h1 .about-caption {
+	text-transform: uppercase;
+	font-weigth: bold;
+}
+
+#about .intro {
+	line-height: 1.8;
+}
+
 #about .intro span {
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #about .about-section {
