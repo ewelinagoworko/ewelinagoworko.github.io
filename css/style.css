@@ -83,7 +83,8 @@ body {
 #main-header .header-caption h1 {
 	font-size: 130px;
 	//font-family: 'Amatic SC', cursive;
-	font-family: 'Lacquer', sans-serif;
+	//font-family: 'Lacquer', sans-serif;
+	font-family: 'Cedarville Cursive', cursive;
 	margin-top: 0px;
 }
 
