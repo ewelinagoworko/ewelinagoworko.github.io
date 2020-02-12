@@ -102,6 +102,10 @@ body {
 	text-transform: lowercase;
 }
 
+#about .intro span {
+	text-transform: uppercase;
+}
+
 #about .about-section {
 	width: 230px;
 	list-style-type: none;
