@@ -151,7 +151,7 @@ body {
 /* Skills Section */
 
 #skills {
-	height: 880px;
+	height: 890px;
 }
 
 #skills .skills-caption {
@@ -175,6 +175,10 @@ body {
     line-height: 25px;
 }
 
+.box h2 {
+	margin-bottom: 25px;
+}
+
 .box span {
 	font-weight: bold;
 }
@@ -184,7 +188,7 @@ body {
 
 /* Other Section */
 
-#other {
+#portfolio {
 	height: 700px;
 }
 
