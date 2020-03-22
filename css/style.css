@@ -106,7 +106,7 @@ body {
 
 #about .about-caption {
 	text-transform: uppercase;
-	font-weigth: bold;
+	font-weight: bold;
 }
 
 #about .intro {
@@ -208,10 +208,17 @@ body {
 #contact {
 	height: 700px;
 }
+
+.contact-caption {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 #contact #data {
 	border: 1px solid #1D1D21;
 	height: 200px;
-	width: 400px;
+	width: 50%;
+	margin: 0;
 	padding: 20px;
     line-height: 35px;
 	border-radius: 5px;
@@ -240,60 +247,6 @@ body {
 	padding: 25px;
 }
 
-#contact input, #contact textarea {
-	text-transform: uppercase;
-	padding: 15px;
-	border-radius: 5px;
-	font-size: 0.7em;
-}
-
-#contact input:not(:last-child) {
-	margin-bottom: 30px;
-}
-
-#contact input[type="submit"] {
-	margin-top: 10px;
-	background-color: #C8C8C8;
-	border: 1px solid #1D1D21;
-}
-
-#contact input[type="submit"]:hover {
-	cursor: n-resize;
-	background-color: #B28B98;
-	opacity: 0.7;
-}
-
-#contact ::-webkit-input-placeholder,
-#contact ::-moz-placeholder,
-#contact :-ms-input-placeholder,
-#contact :-moz-placeholder {
-	color: #777;
-}
-
-#contact input:not([type='submit']), #contact textarea {
-	width: 100%;
-	border: 1px solid;
-	background-color: #F5F5F5;
-	transition: all .2s;
-}
-
-#contact textarea {
-	height: 150px;
-	resize: none;
-}
-
-#contact textarea:hover, input:not([type='submit']):hover, #data:hover {
-	background-image: url(../img/seigaiha.png);
-	background-size: auto;
-}
-
-.contact-section #formular {
-	margin-left: 145px;
-}
-
-#contact #send {
-	margin: 0px 70px;
-}
 
 
 /* Footer */
