@@ -50,7 +50,7 @@ body {
 }
 
 #main-nav.scroll {
-	background-color: rgba(178, 139, 152, 0.4);	
+	//background-color: rgba(178, 139, 152, 0.4);	
 }
 
 #main-nav.scroll a {
@@ -189,9 +189,17 @@ body {
 /* Other Section */
 
 #portfolio {
-	height: 700px;
+	height: 600px;
 }
 
+.hobby-caption {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.other-languages {
+	line-height: 17px;
+}
 
 
 
