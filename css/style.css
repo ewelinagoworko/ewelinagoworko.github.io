@@ -151,21 +151,20 @@ body {
 /* Skills Section */
 
 #skills {
-	height: 800px;
+	height: 880px;
 }
 
 #skills .skills-caption {
 	margin-top: 45px;
+	font-weight: bold;
+    text-transform: uppercase;
 }
 
-#skills .coding {
-	margin-top: 50px;
-	cursor: n-resize;
+#skills .education {
+	margin-top: 40px;
+	//cursor: n-resize;
 }
 
-#skills .col-sm-3 {
-	height: 200px;
-}
 
 .box {
 	width: 315px;
@@ -174,6 +173,10 @@ body {
 	display: inline-block;
 	padding: 5px;
     line-height: 25px;
+}
+
+.box span {
+	text-weight: bold;
 }
 
 
