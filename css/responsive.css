@@ -38,27 +38,11 @@
 		font-size: 1.3em;
 	}
 	
-	#skills .coding {
+	#skills .education {
 		font-size: 0.9em;
 	}
 }
 
-@media (max-width: 1199px) {
-	#contact #formular {
-		width: 350px;
-		transform: translateX(100%);
-		bottom: 200px;
-	}
-	
-		#contact #send {
-		bottom: 200px;
-		float: right;
-	}
-	
-	#slider {
-		margin-left: 190px;
-	}
-}
 
 
 @media (max-width: 991px) {
@@ -74,72 +58,20 @@
 		width: 310px;
 	}
 	
-	#contact #formular {
-		width: 350px;
-		transform: translateX(60%);
-		bottom: 200px;
-	}
-	
-	#slider {
-		margin-left: 85px;
-	}
 }
 
 @media (max-width: 765px) {
 	#contact {
-		height: 1000px;
+		height: 580px;
 	}
-	#contact #formular {
-		transform: translateY(70%) translateX(6%);
-	}
-	
-	#contact #data {
-		transform: translateX(60%);
-	}
-	
-	#contact #send {
-		transform: translateX(-90%);
-		bottom: -20px;
-	}
-}
 
-@media (max-width: 720px) {
-	#slider {
-		margin-left: 50px;
-	}
 }
 
 
-@media (max-width: 650px) {
-	#contact .contact-section {
-		transform: translateX(-15%);
-	}
-}
 
-@media (max-width: 600px) {
-	#contact #send {
-		margin-right: auto;
-	}
-}
-
-@media (max-width: 540px){
-	#contact .contact-section {
-		transform: translateX(-20%);
-	}
-	
-	#contact #send {
-		transform: translateX(-10%);
-	}
-}
-
-@media (max-width: 470px){
-	#contact .contact-section {
-		transform: translateX(-32%);
-	}
-}
 
 @media (max-width: 590px) {
-	#skills .coding {
+	#skills .education {
 		padding-right: 100px;
 	}
 }
@@ -162,40 +94,4 @@
 	}
 }
 
-@media (max-width: 1200px) {
-	#slider {
-		margin-left: 255px;
-	}
-}
 
-@media (max-width: 995px) {
-	#slider {
-		margin-left: 145px;
-	}
-}
-
-@media (max-width: 715px) {
-	#slider {
-		margin-left: 110px;
-	}
-}
-
-@media (max-width: 615px) {
-	#slider {
-		margin-left: 55px;
-	}
-}
-
-@media (max-width: 530px) {
-	#slider {
-		margin-left: 15px;
-		height: 265px;
-	}
-}
-
-@media (max-width: 495px) {
-	#slider {
-		height:265px;
-		width: 345px;
-	}
-}
