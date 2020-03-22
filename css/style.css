@@ -106,6 +106,7 @@ body {
 #about .about-caption {
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-top: 30px;
 }
 
 #about .intro {
@@ -154,7 +155,7 @@ body {
 }
 
 #skills .skills-caption {
-	margin-top: 45px;
+	margin-top: 30px;
 	font-weight: bold;
     text-transform: uppercase;
 }
@@ -195,10 +196,15 @@ body {
 .hobby-caption {
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-top: 30px;
 }
 
 .other-languages {
 	line-height: 17px;
+}
+
+..other-languages a {
+	color: #333;
 }
 
 
@@ -206,12 +212,13 @@ body {
 /* Contact Section */
 
 #contact {
-	height: 700px;
+	height: 550px;
 }
 
 .contact-caption {
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-top: 30px;
 }
 
 #contact #data {
