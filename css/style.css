@@ -152,7 +152,7 @@ body {
 /* Skills Section */
 
 #skills {
-	height: 890px;
+	height: 800px;
 }
 
 #skills .skills-caption {
@@ -160,13 +160,6 @@ body {
 	font-weight: bold;
     text-transform: uppercase;
 }
-
-#skills .education {
-	margin-top: 40px;
-	//cursor: n-resize;
-}
-
-
 
 .box {
 	width: 315px;
