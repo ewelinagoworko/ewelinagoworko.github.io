@@ -206,7 +206,7 @@ body {
 /* Contact Section */
 
 #contact {
-	height: 550px;
+	height: auto;
 }
 
 .contact-caption {
