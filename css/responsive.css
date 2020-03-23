@@ -29,7 +29,8 @@
 	}
 	
 	#main-header .header-caption h1 {
-		font-size: 2.3em;
+		font-size: 5.3em;
+    		margin-left: -25%;
 	}
 }
 
